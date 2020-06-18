@@ -1,0 +1,62 @@
+/* 
+p {
+    color:rgb(8, 34, 180);
+}
+
+p.p1 {
+    color: rgb(221, 224, 6);
+}
+
+p.p2.feedback {
+    color: red;
+    border: 5px solid black
+} */
+
+div p {
+    color: royalblue;
+}
+
+div .p1 {
+    color: sandybrown;
+}
+
+#kakatua {
+    background-color: lightgrey;
+}
+
+#kakatua2 {
+    background-color: orange;
+}
+
+a[href] {
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: orangered;
+}
+
+a[href="www.google.com"] {
+    background-color: green;
+}
+
+a[href*="google"] {
+    background-color: royalblue;
+}
+
+a[href$=".ac.id"] {
+background-color: purple;
+}
+
+h1:hover {
+    color:white;
+    background-color: black;
+}
+
+p::selection{
+    background-color: red;
+    color: yellow;
+}
+
+a::before {
+    content: "Link -";
+}
