@@ -1,0 +1,26 @@
+
+img.emot1{
+    display: block;
+    background-color: lightblue;
+    padding: 20px;
+    border: 10px solid red;
+    margin: 20px;
+}
+
+img.emot2{
+    display: block;
+    background-color: lightblue;
+    padding: 20px;
+    border: 10px solid red;
+    margin: 20px;
+    margin-left: 380px;
+}
+
+img.emot3{
+    display: block;
+    background-color: lightblue;
+    padding: 20px;
+    border: 10px solid red;
+    margin: -20px;
+    margin-left: 200px;
+}
